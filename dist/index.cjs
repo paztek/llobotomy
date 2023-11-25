@@ -1,5 +1,5 @@
 /*!
- * [libraryName] v0.0.0
+ * llobotomy v0.0.0
  * (c) [authorFullName]
  * Released under the MIT License.
  */

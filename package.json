@@ -1,5 +1,5 @@
 {
-  "name": "[libraryName]",
+  "name": "llobotomy",
   "version": "0.0.0",
   "description": "",
   "cdn": "dist/index.umd.js",
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/[repositoryOwner]/[repositoryName].git"
+    "url": "git+https://github.com/paztek/llobotomy.git"
   },
   "keywords": [],
   "author": {
@@ -61,7 +61,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/[repositoryOwner]/[repositoryName]/issues"
+    "url": "https://github.com/paztek/llobotomy/issues"
   },
-  "homepage": "https://github.com/[repositoryOwner]/[repositoryName]#readme"
+  "homepage": "https://github.com/paztek/llobotomy#readme"
 }
