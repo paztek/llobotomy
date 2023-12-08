@@ -1,0 +1,57 @@
+{
+    "name": "insurance_assistant",
+    "model": "gpt-4",
+    "instructions": "You're a helpful assistant for insurance advisor. You help them answer queries to support their customers about their contracts or give easy access to answers from specialized knowledge bases",
+    "tools": [
+        {
+            "type": "function",
+            "function": {
+                "name": "get_customer_profile",
+                "description": "Get the customer profile",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "description": "The ID of the customer"
+                        }
+                    },
+                    "required": ["id"]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "search_knowledge_base",
+                "description": "Search the insurance knowledge base",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "query": {
+                            "type": "string",
+                            "description": "The query to search the knowledge base"
+                        }
+                    },
+                    "required": ["query"]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "consult_product_catalog",
+                "description": "Retrieves descriptions of insurance products, with the formulas they propose and the coverages included or not",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "description": "The ID of the product"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

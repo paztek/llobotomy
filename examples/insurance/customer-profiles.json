@@ -1,0 +1,38 @@
+[
+    {
+        "id": "ABC",
+        "name": "Luke Skywalker",
+        "contracts": [
+            {
+                "id": "ABC1",
+                "name": "Habitation",
+                "product_id": "HOME",
+                "formula": "PLUS"
+            },
+            {
+                "id": "ABC2",
+                "name": "Protection Juridique",
+                "product_id": "PJ",
+                "formula": "Basic"
+            },
+            {
+                "id": "ABC3",
+                "name": "Assistance",
+                "product_id": "ASSISTANCE",
+                "formula": "Basic"
+            }
+        ]
+    },
+    {
+        "id": "DEF",
+        "name": "Leia Organa",
+        "contracts": [
+            {
+                "id": "DEF1",
+                "name": "Habitation",
+                "product_id": "HOME",
+                "formula": "Basic"
+            }
+        ]
+    }
+]

@@ -1,10 +1,10 @@
-# llobotomy
+# LLobotoMy
 
 [![Continuous Integrations](https://github.com/paztek/llobotomy/actions/workflows/continuous-integrations.yaml/badge.svg?branch=main)](https://github.com/paztek/llobotomy/actions/workflows/continuous-integrations.yaml)
 [![License](https://badgen.net/github/license/paztek/llobotomy)](./LICENSE)
 [![Package tree-shaking](https://badgen.net/bundlephobia/tree-shaking/llobotomy)](https://bundlephobia.com/package/llobotomy)
 [![Package minified & gzipped size](https://badgen.net/bundlephobia/minzip/llobotomy)](https://bundlephobia.com/package/llobotomy)
-[![Package dependency count](https://badgen.net/bundlephobia/dependency-count/reactllobotomy)](https://bundlephobia.com/package/llobotomy)
+[![Package dependency count](https://badgen.net/bundlephobia/dependency-count/llobotomy)](https://bundlephobia.com/package/llobotomy)
 
 ## Installation
 
@@ -15,23 +15,6 @@ npm install llobotomy --save
 
 # For Yarn, use the command below.
 yarn add llobotomy
-```
-
-### Installation from CDN
-
-This module has a UMD bundle available through JSDelivr and Unpkg CDNs.
-
-```html
-<!-- For UNPKG use the code below. -->
-<script src="https://unpkg.com/llobotomy"></script>
-
-<!-- For JSDelivr use the code below. -->
-<script src="https://cdn.jsdelivr.net/npm/llobotomy"></script>
-
-<script>
-  // UMD module is exposed through the "llobotomy" global variable.
-  console.log(llobotomy);
-</script>
 ```
 
 ## Documentation

@@ -1,0 +1,59 @@
+[
+    {
+        "id": "HOME",
+        "name": "Habitation",
+        "formulas": [
+            {
+                "name": "PLUS",
+                "coverages": [
+                    "Dégât des eaux",
+                    "Vol",
+                    "Incendie",
+                    "Tempête",
+                    "Attentats",
+                    "Catastrophes naturelles",
+                    "Catastrophes technologiques",
+                    "Dommages électriques",
+                    "Dommages aux appareils électriques",
+                    "Dommages aux appareils"
+                ]
+            },
+            {
+                "name": "Basique",
+                "coverages": ["Dégât des eaux", "Vol", "Incendie"]
+            }
+        ]
+    },
+    {
+        "id": "PJ",
+        "name": "Protection Juridique"
+    },
+    {
+        "id": "CAR",
+        "name": "Auto",
+        "formulas": [
+            {
+                "name": "Tous risques",
+                "coverages": [
+                    "Responsabilité civile",
+                    "Dommages collision",
+                    "Dommages tous accidents",
+                    "Vol",
+                    "Incendie",
+                    "Bris de glace",
+                    "Assistance",
+                    "Protection juridique"
+                ]
+            },
+            {
+                "name": "Tiers",
+                "coverages": [
+                    "Responsabilité civile",
+                    "Dommages collision",
+                    "Vol",
+                    "Incendie"
+                ]
+            }
+        ]
+    }
+]

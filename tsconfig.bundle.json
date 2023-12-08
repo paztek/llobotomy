@@ -3,10 +3,9 @@
   "compilerOptions": {
     // Transpilation settings.
     "module": "ES2022",
-    "target": "ES5",
 
     // Output settings.
-    "newLine": "LF",
+    "newLine": "CRLF",
     "sourceMap": true,
 
     // Type declaration settings.
